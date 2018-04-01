@@ -1,5 +1,4 @@
 # publicsvg.com
-# publicsvg.github.io
 
 Public Domain SVG
 
