@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Public svg</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<meta name="author" content="public domain"/>
+<meta name="description" content="public domain svg software"/>
+<meta name="keywords" content="svg, public, domain, software, color, colors, reference, list, hexadecimal, free, gratis, dominio, publico, scalable, vector, graphics, design, small, mini, tiny, text, editor"/>
+<style>
+body {font-family:Helvetica, Arial;text-align:center;}
+h1 {background-color:#000;color:#fff;margin:0;padding:.5em;font-family:Monospaced;}
+h2 {color:#000;margin:8px;padding-bottom:2em;}
+h3 {background-color:#000;color:#fff;margin:0;padding:.5em;font-family:Monospaced;font-size:2em;}
+img {margin:0px;}
+a {text-decoration:none;}
+p {font-family:Monospace;font-size:2em;margin:0px;}
+
+img.aa {background-color:#000;}
+img.ab {background-color:#111;}
+img.ac {background-color:#222;}
+img.ad {background-color:#333;}
+img.ae {background-color:#444;}
+img.af {background-color:#555;}
+img.ag {background-color:#666;}
+img.ah {background-color:#777;}
+img.ai {background-color:#888;}
+img.aj {background-color:#999;}
+img.ak {background-color:#aaa;}
+img.al {background-color:#bbb;}
+img.am {background-color:#ccc;}
+img.an {background-color:#ddd;}
+img.ao {background-color:#eee;}
+img.ap {background-color:#fff;}
+
+img.ba {background-color:#001;}
+img.bb {background-color:#002;}
+img.bc {background-color:#003;}
+img.bd {background-color:#004;}
+img.be {background-color:#005;}
+img.bf {background-color:#006;}
+img.bg {background-color:#007;}
+img.bh {background-color:#008;}
+img.bi {background-color:#009;}
+img.bj {background-color:#00a;}
+img.bk {background-color:#00b;}
+img.bl {background-color:#00c;}
+img.bm {background-color:#00d;}
+img.bn {background-color:#00e;}
+img.bo {background-color:#00f;}
+
+img.ca {background-color:#100;}
+img.cb {background-color:#200;}
+img.cc {background-color:#300;}
+img.cd {background-color:#400;}
+img.ce {background-color:#500;}
+img.cf {background-color:#600;}
+img.cg {background-color:#700;}
+img.ch {background-color:#800;}
+img.ci {background-color:#900;}
+img.cj {background-color:#a00;}
+img.ck {background-color:#b00;}
+img.cl {background-color:#c00;}
+img.cm {background-color:#d00;}
+img.cn {background-color:#e00;}
+img.co {background-color:#f00;}
+
+img.da {background-color:#010;}
+img.db {background-color:#020;}
+img.dc {background-color:#030;}
+img.dd {background-color:#040;}
+img.de {background-color:#050;}
+img.df {background-color:#060;}
+img.dg {background-color:#070;}
+img.dh {background-color:#080;}
+img.di {background-color:#090;}
+img.dj {background-color:#0a0;}
+img.dk {background-color:#0b0;}
+img.dl {background-color:#0c0;}
+img.dm {background-color:#0d0;}
+img.dn {background-color:#0e0;}
+img.do {background-color:#0f0;}
+
+img.ea {background-color:#101;}
+img.eb {background-color:#202;}
+img.ec {background-color:#303;}
+img.ed {background-color:#404;}
+img.ee {background-color:#505;}
+img.ef {background-color:#606;}
+img.eg {background-color:#707;}
+img.eh {background-color:#808;}
+img.ei {background-color:#909;}
+img.ej {background-color:#a0a;}
+img.ek {background-color:#b0b;}
+img.el {background-color:#c0c;}
+img.em {background-color:#d0d;}
+img.en {background-color:#e0e;}
+img.eo {background-color:#f0f;}
+
+img.fa {background-color:#011;}
+img.fb {background-color:#022;}
+img.fc {background-color:#033;}
+img.fd {background-color:#044;}
+img.fe {background-color:#055;}
+img.ff {background-color:#066;}
+img.fg {background-color:#077;}
+img.fh {background-color:#088;}
+img.fi {background-color:#099;}
+img.fj {background-color:#0aa;}
+img.fk {background-color:#0bb;}
+img.fl {background-color:#0cc;}
+img.fm {background-color:#0dd;}
+img.fn {background-color:#0ee;}
+img.fo {background-color:#0ff;}
+
+img.ga {background-color:#110;}
+img.gb {background-color:#220;}
+img.gc {background-color:#330;}
+img.gd {background-color:#440;}
+img.ge {background-color:#550;}
+img.gf {background-color:#660;}
+img.gg {background-color:#770;}
+img.gh {background-color:#880;}
+img.gi {background-color:#990;}
+img.gj {background-color:#aa0;}
+img.gk {background-color:#bb0;}
+img.gl {background-color:#cc0;}
+img.gm {background-color:#dd0;}
+img.gn {background-color:#ee0;}
+img.go {background-color:#ff0;}
+
+img.ha {background-color:#f10;}
+img.hb {background-color:#f20;}
+img.hc {background-color:#f30;}
+img.hd {background-color:#f40;}
+img.he {background-color:#f50;}
+img.hf {background-color:#f60;}
+img.hg {background-color:#f70;}
+img.hh {background-color:#f80;}
+img.hi {background-color:#f90;}
+img.hj {background-color:#fa0;}
+img.hk {background-color:#fb0;}
+img.hl {background-color:#fc0;}
+img.hm {background-color:#fd0;}
+img.hn {background-color:#fe0;}
+
+img.ia {background-color:#d01;}
+img.ib {background-color:#d02;}
+img.ic {background-color:#d03;}
+img.id {background-color:#d04;}
+img.ie {background-color:#d05;}
+img.if {background-color:#d06;}
+img.ig {background-color:#d07;}
+img.ih {background-color:#d08;}
+img.ii {background-color:#d09;}
+
+img.ij {background-color:#f6b;}
+img.ik {background-color:#fbc;}
+img.il {background-color:#fec;}
+
+img.ja {background-color:#0d1;}
+img.jb {background-color:#0d2;}
+img.jc {background-color:#0d3;}
+img.jd {background-color:#0d4;}
+img.je {background-color:#0d5;}
+img.jf {background-color:#0d6;}
+img.jg {background-color:#0d7;}
+img.jh {background-color:#0d8;}
+img.ji {background-color:#0d9;}
+
+img.ka {background-color:#a10;}
+img.kb {background-color:#a20;}
+img.kc {background-color:#a30;}
+img.kd {background-color:#a40;}
+img.ke {background-color:#a50;}
+img.kf {background-color:#a60;}
+img.kg {background-color:#a70;}
+img.kh {background-color:#a80;}
+img.ki {background-color:#a90;}
+
+img.la {background-color:#210;}
+img.lb {background-color:#310;}
+img.lc {background-color:#410;}
+img.ld {background-color:#510;}
+
+img.le {background-color:#320;}
+img.lf {background-color:#420;}
+img.lg {background-color:#520;}
+img.lh {background-color:#620;}
+img.li {background-color:#720;}
+
+img.lj {background-color:#530;}
+img.lk {background-color:#630;}
+img.ll {background-color:#730;}
+img.lm {background-color:#830;}
+
+</style>
+</head>
+<body>
+<a href="index.html"><h1>Public Domain Scalable Vector Graphics</h1></a>
+<h2>Hexadecimal Color Reference</h2>
+<p>
+#000<img class="aa" src="Icon/b.svg" alt="color">
+#111<img class="ab" src="Icon/b.svg" alt="">
+#222<img class="ac" src="Icon/b.svg" alt="">
+#333<img class="ad" src="Icon/b.svg" alt="">
+#444<img class="ae" src="Icon/b.svg" alt="">
+#555<img class="af" src="Icon/b.svg" alt="">
+#666<img class="ag" src="Icon/b.svg" alt="">
+#777<img class="ah" src="Icon/b.svg" alt="">
+#888<img class="ai" src="Icon/b.svg" alt="">
+#999<img class="aj" src="Icon/b.svg" alt="">
+#aaa<img class="ak" src="Icon/b.svg" alt="">
+#bbb<img class="al" src="Icon/b.svg" alt="">
+#ccc<img class="am" src="Icon/b.svg" alt="">
+#ddd<img class="an" src="Icon/b.svg" alt="">
+#eee<img class="ao" src="Icon/b.svg" alt="">
+#fff<img class="ap" src="Icon/b.svg" alt="">
+
+#001<img class="ba" src="Icon/b.svg" alt="">
+#002<img class="bb" src="Icon/b.svg" alt="">
+#003<img class="bc" src="Icon/b.svg" alt="">
+#004<img class="bd" src="Icon/b.svg" alt="">
+#005<img class="be" src="Icon/b.svg" alt="">
+#006<img class="bf" src="Icon/b.svg" alt="">
+#007<img class="bg" src="Icon/b.svg" alt="">
+#008<img class="bh" src="Icon/b.svg" alt="">
+#009<img class="bi" src="Icon/b.svg" alt="">
+#00a<img class="bj" src="Icon/b.svg" alt="">
+#00b<img class="bk" src="Icon/b.svg" alt="">
+#00c<img class="bl" src="Icon/b.svg" alt="">
+#00d<img class="bm" src="Icon/b.svg" alt="">
+#00e<img class="bn" src="Icon/b.svg" alt="">
+#00f<img class="bo" src="Icon/b.svg" alt="">
+
+#011<img class="fa" src="Icon/b.svg" alt="">
+#022<img class="fb" src="Icon/b.svg" alt="">
+#033<img class="fc" src="Icon/b.svg" alt="">
+#044<img class="fd" src="Icon/b.svg" alt="">
+#055<img class="fe" src="Icon/b.svg" alt="">
+#066<img class="ff" src="Icon/b.svg" alt="">
+#077<img class="fg" src="Icon/b.svg" alt="">
+#088<img class="fh" src="Icon/b.svg" alt="">
+#099<img class="fi" src="Icon/b.svg" alt="">
+#0aa<img class="fj" src="Icon/b.svg" alt="">
+#0bb<img class="fk" src="Icon/b.svg" alt="">
+#0cc<img class="fl" src="Icon/b.svg" alt="">
+#0dd<img class="fm" src="Icon/b.svg" alt="">
+#0ee<img class="fn" src="Icon/b.svg" alt="">
+#0ff<img class="fo" src="Icon/b.svg" alt="">
+
+#0d1<img class="ja" src="Icon/b.svg" alt="">
+#0d2<img class="jb" src="Icon/b.svg" alt="">
+#0d3<img class="jc" src="Icon/b.svg" alt="">
+#0d4<img class="jd" src="Icon/b.svg" alt="">
+#0d5<img class="je" src="Icon/b.svg" alt="">
+#0d6<img class="jf" src="Icon/b.svg" alt="">
+#0d7<img class="jg" src="Icon/b.svg" alt="">
+#0d8<img class="jh" src="Icon/b.svg" alt="">
+#0d9<img class="ji" src="Icon/b.svg" alt="">
+
+#010<img class="da" src="Icon/b.svg" alt="">
+#020<img class="db" src="Icon/b.svg" alt="">
+#030<img class="dc" src="Icon/b.svg" alt="">
+#040<img class="dd" src="Icon/b.svg" alt="">
+#050<img class="de" src="Icon/b.svg" alt="">
+#060<img class="df" src="Icon/b.svg" alt="">
+#070<img class="dg" src="Icon/b.svg" alt="">
+#080<img class="dh" src="Icon/b.svg" alt="">
+#090<img class="di" src="Icon/b.svg" alt="">
+#0a0<img class="dj" src="Icon/b.svg" alt="">
+#0b0<img class="dk" src="Icon/b.svg" alt="">
+#0c0<img class="dl" src="Icon/b.svg" alt="">
+#0d0<img class="dm" src="Icon/b.svg" alt="">
+#0e0<img class="dn" src="Icon/b.svg" alt="">
+#0f0<img class="do" src="Icon/b.svg" alt="">
+
+#110<img class="ga" src="Icon/b.svg" alt="">
+#220<img class="gb" src="Icon/b.svg" alt="">
+#330<img class="gc" src="Icon/b.svg" alt="">
+#440<img class="gd" src="Icon/b.svg" alt="">
+#550<img class="ge" src="Icon/b.svg" alt="">
+#660<img class="gf" src="Icon/b.svg" alt="">
+#770<img class="gg" src="Icon/b.svg" alt="">
+#880<img class="gh" src="Icon/b.svg" alt="">
+#990<img class="gi" src="Icon/b.svg" alt="">
+#aa0<img class="gj" src="Icon/b.svg" alt="">
+#bb0<img class="gk" src="Icon/b.svg" alt="">
+#cc0<img class="gl" src="Icon/b.svg" alt="">
+#dd0<img class="gm" src="Icon/b.svg" alt="">
+#ee0<img class="gn" src="Icon/b.svg" alt="">
+#ff0<img class="go" src="Icon/b.svg" alt="">
+
+#f10<img class="ha" src="Icon/b.svg" alt="">
+#f20<img class="hb" src="Icon/b.svg" alt="">
+#f30<img class="hc" src="Icon/b.svg" alt="">
+#f40<img class="hd" src="Icon/b.svg" alt="">
+#f50<img class="he" src="Icon/b.svg" alt="">
+#f60<img class="hf" src="Icon/b.svg" alt="">
+#f70<img class="hg" src="Icon/b.svg" alt="">
+#f80<img class="hh" src="Icon/b.svg" alt="">
+#f90<img class="hi" src="Icon/b.svg" alt="">
+#fa0<img class="hj" src="Icon/b.svg" alt="">
+#fb0<img class="hk" src="Icon/b.svg" alt="">
+#fc0<img class="hl" src="Icon/b.svg" alt="">
+#fd0<img class="hm" src="Icon/b.svg" alt="">
+#fe0<img class="hn" src="Icon/b.svg" alt="">
+
+#a10<img class="ka" src="Icon/b.svg" alt="">
+#a20<img class="kb" src="Icon/b.svg" alt="">
+#a30<img class="kc" src="Icon/b.svg" alt="">
+#a40<img class="kd" src="Icon/b.svg" alt="">
+#a50<img class="ke" src="Icon/b.svg" alt="">
+#a60<img class="kf" src="Icon/b.svg" alt="">
+#a70<img class="kg" src="Icon/b.svg" alt="">
+#a80<img class="kh" src="Icon/b.svg" alt="">
+#a90<img class="ki" src="Icon/b.svg" alt="">
+
+#210<img class="la" src="Icon/b.svg" alt="">
+#310<img class="lb" src="Icon/b.svg" alt="">
+#410<img class="lc" src="Icon/b.svg" alt="">
+#510<img class="ld" src="Icon/b.svg" alt="">
+
+#320<img class="le" src="Icon/b.svg" alt="">
+#420<img class="lf" src="Icon/b.svg" alt="">
+#520<img class="lg" src="Icon/b.svg" alt="">
+#620<img class="lh" src="Icon/b.svg" alt="">
+#720<img class="li" src="Icon/b.svg" alt="">
+
+#530<img class="lj" src="Icon/b.svg" alt="">
+#630<img class="lk" src="Icon/b.svg" alt="">
+#730<img class="ll" src="Icon/b.svg" alt="">
+#830<img class="lm" src="Icon/b.svg" alt="">
+
+#100<img class="ca" src="Icon/b.svg" alt="">
+#200<img class="cb" src="Icon/b.svg" alt="">
+#300<img class="cc" src="Icon/b.svg" alt="">
+#400<img class="cd" src="Icon/b.svg" alt="">
+#500<img class="ce" src="Icon/b.svg" alt="">
+#600<img class="cf" src="Icon/b.svg" alt="">
+#700<img class="cg" src="Icon/b.svg" alt="">
+#800<img class="ch" src="Icon/b.svg" alt="">
+#900<img class="ci" src="Icon/b.svg" alt="">
+#a00<img class="cj" src="Icon/b.svg" alt="">
+#b00<img class="ck" src="Icon/b.svg" alt="">
+#c00<img class="cl" src="Icon/b.svg" alt="">
+#d00<img class="cm" src="Icon/b.svg" alt="">
+#e00<img class="cn" src="Icon/b.svg" alt="">
+#f00<img class="co" src="Icon/b.svg" alt="">
+
+#d01<img class="ia" src="Icon/b.svg" alt="">
+#d02<img class="ib" src="Icon/b.svg" alt="">
+#d03<img class="ic" src="Icon/b.svg" alt="">
+#d04<img class="id" src="Icon/b.svg" alt="">
+#d05<img class="ie" src="Icon/b.svg" alt="">
+#d06<img class="if" src="Icon/b.svg" alt="">
+#d07<img class="ig" src="Icon/b.svg" alt="">
+#d08<img class="ih" src="Icon/b.svg" alt="">
+#d09<img class="ii" src="Icon/b.svg" alt="">
+#f6b<img class="ij" src="Icon/b.svg" alt="">
+#fbc<img class="ik" src="Icon/b.svg" alt="">
+#fec<img class="il" src="Icon/b.svg" alt="">
+
+#101<img class="ea" src="Icon/b.svg" alt="">
+#202<img class="eb" src="Icon/b.svg" alt="">
+#303<img class="ec" src="Icon/b.svg" alt="">
+#404<img class="ed" src="Icon/b.svg" alt="">
+#505<img class="ee" src="Icon/b.svg" alt="">
+#606<img class="ef" src="Icon/b.svg" alt="">
+#707<img class="eg" src="Icon/b.svg" alt="">
+#808<img class="eh" src="Icon/b.svg" alt="">
+#909<img class="ei" src="Icon/b.svg" alt="">
+#a0a<img class="ej" src="Icon/b.svg" alt="">
+#b0b<img class="ek" src="Icon/b.svg" alt="">
+#c0c<img class="el" src="Icon/b.svg" alt="">
+#d0d<img class="em" src="Icon/b.svg" alt="">
+#e0e<img class="en" src="Icon/b.svg" alt="">
+#f0f<img class="eo" src="Icon/b.svg" alt="">
+</p>
+<a href="index.html"><h3>| Back |</h3></a>
+</body>
+</html>
