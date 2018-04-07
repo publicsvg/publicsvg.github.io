@@ -9,3 +9,6 @@ Public svg contiene gráficos vectoriales escalables públicos gratuitos. Siént
 
 En français:
 Le svg public contient des graphiques vectoriels publics évolutifs gratuits. N'hésitez pas à télécharger toute image/logiciel que vous voulez, il suffit de cliquer pour télécharger. Vous pouvez copier, modifier ou distribuer, même sans demander la permission. Vous pouvez utiliser ce logiciel pour un site Web, une application ou votre propre logiciel. Ce logiciel est fourni tel quel, sans garantie d'aucune sorte. En aucun cas les auteurs ou les créateurs ne seront responsables de toute réclamation découlant du logiciel ou qui s'y rapporte.
+
+Bitcoin:
+donation  17NnuJVArdzwFrzxnhoX5W48pBvwVF6Fsk
