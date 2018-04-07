@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 100 100">
+<path stroke-width="2" stroke-linecap="round" fill="none" stroke="#000" d="M0 90Q5 99 10 90 15 99 20 90 25 99 30 90 35 99 40 90 45 99 50 90 55 99 60 90 65 99 70 90 75 99 80 90 85 99 90 90 95 99 100 90M0 25Q25 25 25 0M25 25L35 35M11 35L14 45M34 10L45 15"/></svg>
