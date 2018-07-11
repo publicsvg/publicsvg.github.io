@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100px" height="100px" viewBox="0 0 100 100">
+<path stroke-width="2" stroke-linecap="round" fill="none" stroke="#000" d="M5 95L15 95 15 85 25 85 25 95 35 95 35 85 45 85 45 95 55 95 55 85 65 85 65 95 75 95 75 85 85 85 85 95 95 95 95 85 5 85 5 95 95 95M15 85L15 75 25 75 25 85 35 85 35 75 45 75 45 85 55 85 55 75 65 75 65 85 75 85 75 75 85 75 85 85 85 75 25 75 25 65 35 65 35 75 45 75 45 65 55 65 55 75 65 75 65 65 75 65 75 75 75 65 35 65 35 55 45 55 45 65 55 65 55 55 65 55 65 65 65 55 45 55 45 45 55 45 55 55"/></svg>
